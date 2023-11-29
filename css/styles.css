@@ -115,9 +115,17 @@ main .encabezado .textoPrincipalWeb {
         text-align: justify;
     }
 
+    .textoCentrado {
+        text-align: center;
+    }
+
     .videoCentrado {
         text-align: center;
-        padding-top: 10px;
+        max-width: 700px;
+        height: auto;
+        margin: auto;
+        margin-bottom: 30px;
+        padding-top: 15px;
         padding-bottom: 20px;
     }
 
@@ -130,6 +138,21 @@ main .encabezado .textoPrincipalWeb {
         margin: 100px 30px 30px 30px;
     }
 
+    main .coach {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: auto;
+        align-items: center;
+    }
+    main .sesion-coach {
+        width: 60%;
+        height: auto;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 400;
+        text-align: justify;
+        padding-bottom: 15px;
+    }
 
 .cards-container {
     display: grid;
@@ -169,3 +192,20 @@ main .encabezado .textoPrincipalWeb {
     font-size: 16px;
     text-decoration: none;
   }
+
+  main .formulario {
+    background-color: #5C8374;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px 40px 15px 40px;
+    border-radius: 8px;
+  }
+
+  .parrafo {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
